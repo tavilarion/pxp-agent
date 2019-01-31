@@ -10,14 +10,16 @@
         <key>Label</key>
         <string>pxp-agent</string>
         <key>KeepAlive</key>
-        <false/>
+        <true/>
         <key>ProgramArguments</key>
         <array>
                 <string>/opt/puppetlabs/puppet/bin/pxp-agent</string>
                 <string>--foreground</string>
         </array>
         <key>RunAtLoad</key>
-        <false/>
+        <true/>
+        <key>Disabled</key>
+        <true/>
         <key>StandardErrorPath</key>
         <string>/var/log/puppetlabs/pxp-agent/pxp-agent.log</string>
         <key>StandardOutPath</key>
